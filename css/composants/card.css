@@ -1,0 +1,36 @@
+.card {
+    color: rgb(255,255,255);
+    width: 90%;
+    height: 40%;
+}
+
+.card-category {
+    width: 100%;
+    height: 30%;
+    background-color: lightcoral;
+}
+
+.card-description {
+
+}
+
+.card-description > p {
+    font-size: 10pt;
+}
+
+/*.card-user {
+    position: absolute;
+    display: inline-block;
+    top: 0%;
+    right: 0%;
+}
+
+.avatar {
+    width: 10%;
+	height: 10%;
+	border-radius: 50%;
+}
+
+.card-link {
+    
+}*/

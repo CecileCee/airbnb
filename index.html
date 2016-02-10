@@ -3,56 +3,72 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/composants/banner.css">
+        <link rel="stylesheet" type="text/css" href="css/composants/button.css">
         <title>airbnb</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     
     
     
     <body>
-        <div class="header">
+        <div class="banner">
             <div id="bg-image">
-            <nav>
-                <ul>
-                    <li><div id="logo"></div></li>
-                    <li>Devenez hôte</li>
-                    <li></li>
-                    <li>Inscription</li>
-                    <li>Connexion</li>
-                </ul>
-            </nav>
-        
-            <div class="">
+                <div class="container-menu">
+                    <div id="logo"><img src="images/airbnb_logo.png"></div>
+                    <nav class="menu">
+                        <ul>
+                            <li class="btn-medium">Devenez hôte</li>
+                            <li><i class="fa fa-life-bouy"></i></li>
+                            <li>Inscription</li>
+                            <li>Connexion</li>
+                        </ul>
+                    </nav>
+                </div>
+            <div class="banner-content">
                 <h1>BIENVENUE À LA MAISON</h1>
                 <p>Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.</p>
-            </div>
             
-            <div id="button">Mode d'emploi</div>
+                <div class="btn-treehouse">Mode d'emploi</div>
+                
+            </div>
             
             <div id="recherche-form"></div>
             </div>
         </div>
         
         
+        
+        
+        
 <!-- MAIN CONTENT -->
         <div class="main-content">
             
-            <aside></aside>
+            <div class="aside">
+                <div class="img-aside"></div>
+                <div class="legend-aside text-center">
+                    <h2>Vivez-le à partir de</h2>
+                </div>
+            </div>
          
         <!-- Juste pour le week-end -->
-            <div class="container-cardbox">
-                <div class="cardbox lille"></div>
-                <div class="cardbox bruxelles"></div>
-                <div class="cardbox londres"></div>
-            
+            <div class="container-text-cardbox">
+                <div class="title-cardbox text-center">
+                    <h3>Juste pour le week-end</h3>
+                    <p>Découvrez de nouveaux logements incroyables près de chez vous.</p>
+                </div>
+                <div class="container-cardbox">
+                    <div class="cardbox lille"></div>
+                    <div class="cardbox bruxelles"></div>
+                    <div class="cardbox londres"></div>
+                </div>
                 <div class="button-link"></div>
             </div>
             
         <!-- Explorer le monde -->
-             <div class="container-cardbox">
+             <div class="container-text-cardbox">
                 <div class="cardbox lisbonne"></div>
                 <div class="cardbox paris"></div>
                 <div class="cardbox amsterdam"></div>
@@ -66,7 +82,7 @@
             </div>
         
         <!-- Chez vous -->
-            <div class="banner"></div>
+            <div class="banner2"></div>
             
         <!-- Notre communauté -->
             <div class="container-cardbox">
